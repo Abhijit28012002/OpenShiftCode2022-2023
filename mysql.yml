@@ -10,7 +10,7 @@ spec:
    - port: 3306
    selector:
      app: wordpress
-     tier: myspl
+     tier: mysql
    clusterIP: None
 ---
 apiVersion: v1
